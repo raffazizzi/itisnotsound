@@ -1,0 +1,9 @@
+.copyright.container
+    //-
+      - var currentDate = new Date();
+      - var year = currentDate.getFullYear();
+      - var start = config.startYear;
+      - year = year == start ? year : (start ? start + ' - ' + year : year);
+    p
+      a(href="https://creativecommons.org/licenses/by/4.0/") CC-BY
+      | &nbsp;by #[a(href=config.url)!= config.author].

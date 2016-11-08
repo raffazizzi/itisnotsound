@@ -1,0 +1,15 @@
+doctype
+html(lang=config.language prefix='og: http://ogp.me/ns#')
+    head
+        include head
+    body.pupa
+        block header
+          include header
+        main
+            block container
+            block pagination
+        footer
+            include copyright
+        include scripts
+
+    block cscript
