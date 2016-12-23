@@ -1,5 +1,19 @@
 //- LaTex
-script(async src="//cdn.bootcss.com/mathjax/2.7.0-beta.0/MathJax.js")
+// script(async src="//cdn.bootcss.com/mathjax/2.7.0-beta.0/MathJax.js")
+
+// Simple menu click for small resolution (mobile)
+script.
+    (function() {
+      var nav = document.getElementsByTagName("nav")[0];
+      document.getElementById("togglenav").onclick = function(){
+        if (nav.className.indexOf("visible") > -1){
+          nav.className = "";
+        }
+        else {
+          nav.className = "visible"
+        }
+      }
+    })();
 
 //- Analytics tracking
 - var ga = theme.ga

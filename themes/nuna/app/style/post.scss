@@ -115,6 +115,7 @@ $gray: #999;
         p {
             margin-top: 0;
             margin-bottom: 1.46em;
+            text-align: justify;
         }
 
     }
@@ -134,6 +135,11 @@ $gray: #999;
         text-decoration: none;
         margin-right: 6px;
         font-size: 0.8rem;
+        color: $gray;
+
+        &:hover {
+          color: #014c8c !important;
+        }
 
         &:before {
             content: '#';

@@ -28,10 +28,43 @@ header {
     }
 
     nav {
+      display:none;
+      background-color: white;
+      position: absolute;
+      top: 45px;
+      right:0;
+      padding: 5px 15px 15px 15px;
 
         a {
-            margin-left: 2rem;
+            display: block;
         }
+    }
+
+    nav.visible {
+      display: block;
+    }
+
+    #togglenav {
+      display: block;
+    }
+
+    @media (min-width: 425px) {
+
+      #togglenav {
+        display: none;
+      }
+
+      nav {
+        display: inline-block;
+        position: inherit;
+        padding: 0px;
+        background-color: transparent;
+
+        a {
+          display: inline;
+          margin-left: 2rem;
+        }
+      }
     }
 
 }
