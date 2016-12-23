@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>It Is Not Sound</title>
   <subtitle>Raff Viglianti</subtitle>
-  <link href="/atom.xml" rel="self"/>
+  <link href="/itisnotsound/atom.xml" rel="self"/>
   
   <link href="http://itisnotsound.com/"/>
-  <updated>2016-11-06T22:45:52.383Z</updated>
+  <updated>2016-12-22T21:58:04.007Z</updated>
   <id>http://itisnotsound.com/</id>
   
   <author>
@@ -14,6 +14,40 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Meteomozart: Piano Sonata K.333 Influenced by the Weather</title>
+    <link href="http://itisnotsound.com/2016/12/22/meteomozart/"/>
+    <id>http://itisnotsound.com/2016/12/22/meteomozart/</id>
+    <published>2016-12-22T21:00:00.000Z</published>
+    <updated>2016-12-22T21:58:04.007Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>This post introduces Meteomozart, a dynamic score of Mozart’s Piano Sonata No.13 in B♭ major, K.333/315c. This score is location-based, so make sure to allow the browser to know your location when prompted! Click or tap on the sides of the score to move between pages.</strong></p>
+<p>For a while now, I’ve been researching the use of digital scores in music performance. Concert goers are growing accustomed to performers, particularly small ensembles, who bring an iPad on stage and place it on the music stand before they begin to play. Typically the music notation on those music stands is not different from printed music: some performers choose the digital format mostly because of its portability. It’s nice not having to carry around a lot of paper and it’s easy to send PDFs via email to colleagues or get the latest corrections from a composer. Apps on iPads have gotten sophisticated enough to deal with PDF scores elegantly, and a silent tap on the side of a screen, or the nimble pressing of a foot pedal is replacing the rustle of page turning.</p>
+<p>Unfortunately, the machines that display PDF scores can only do just that and the music notation is entirely incomprehensible to the computer. If it were, music scores could be more dynamic and changeable, starting from layout and transposition, to the display of textual variants and contextual material, and much more. <a href="http://tido-music.com" target="_blank" rel="external">Many</a> <a href="https://www.gogustaf.com/" target="_blank" rel="external">are</a> <a href="http://tonara.com/tonara/" target="_blank" rel="external">working</a> on precisely this kind of dynamic scores, but it is difficult to make this a widespread reality for many reasons that are not the point of this post. Rather, I’d like to introduce a small experiment I’ve been working on to try and tease out some of the possibilities of using dynamic digital scores in performance.</p>
+<p>Meteomozart is a dynamic score of Mozart’s Piano Sonata No.13 in B♭ major, K.333/315c. At the time of writing, the score only includes the first theme of the first movement (about 60 measures), but I’ll extend it over time. Meteomozart adjusts the score based on the weather at your location (or at a location you set). Different slurs and dynamics are shown, taken from four sources: Mozart’s 1783 manuscript, the first printed edition (1784) and two performing editions by Bartók (1911) and Saint-Saëns (1915).</p>
+<p>I decided to work on this sonata and adopt these specific sources after re-reading George Barth’s 1992 article “<a href="http://em.oxfordjournals.org/content/XIX/4/538.extract" target="_blank" rel="external">Mozart performance in the 19th century</a>”. He discusses how slurs in the sonata were changed substantially from the autograph manuscript to the first edition, and more dynamics were introduced. It is not certain that Mozart supervised these changes, but “many clues from the notation itself and from the history of the work’s publication make it seem likely that he did” (p. 541). This creates a first conundrum that will be familiar to textual scholars: which of the two is more legitimate and correct? The Neue Mozart Ausgabe–the authoritative complete Mozart edition–follows its general editorial principles and adopts the manuscript, but still provides information about the first edition’s slurs in the apparatus (that is, in a separate volume practically inaccessible to most performers, but in fairness <a href="http://dme.mozarteum.at/DME/nma/nma_cont.php?vsep=198&amp;gen=kb&amp;p1=-99&amp;l=2" target="_blank" rel="external">it’s also on their website</a>). Bartók’s and Saint-Saëns’ versions, instead, are more reflective of the way in which Mozarts was played in the late 19th century into the early 20th. The general meaning of slurs had by this point switched from a more rhetorical, almost grammatical function of the classical period to a more consistent indication of legato. And the notation of dynamics had become more explicit, leaving less to interpretation. This is certainly notable in Bartók’s and Saint-Saëns’ work as editors, who bring a lot more to the table. While their additions to K. 333 is certainly not Mozart’s, they reflect a historical situated view of the piano sonata that can still be relevant, or at the very least informative, to the modern performer’s artistic sensibility. Opinions on whether these versions have a place in modern performance will vary sharply, but at the very least there is value in understanding the breadth of Mozart’s reception across the centuries, and perhaps pick up a few ideas in the process.</p>
+<p>In Meteomozart, certain weather condition (e.g. sunny, cloudy, rainy, etc.) will change the score to show slurs and dynamics from one of the four sources. For example, Mozart’s autograph comes up in clear weather, while Bartók will show up in stormy weather. Why? No reason, really. The main idea here is to take away some control from the performer, or rather, to make it more obvious that some control is always taken away in a printed edition. This is done with good reason: editors typically build an understanding of the historical contingencies that makes on version better than the other (a recent relevant example: La Scala in Milan just staged <a href="http://www.nytimes.com/2016/12/06/arts/music/puccini-madama-butterfly-returns-to-la-scala.html" target="_blank" rel="external">a rejected version of Puccini’s <em>Madama Butterfly</em></a> that did really poorly at the premiere in 1904); also, it makes sense to provide a clean text that performers can pick up and play. But often there are very good reasons for not making decisions for the performer (Chopin, for example, published versions of his works in three countries all with minor differences, all published around the same time; which one is “correct”? See the <a href="http://www.chopinonline.ac.uk/ocve/" target="_blank" rel="external">OCVE project</a>). Meteomozart presents a slightly unpredictable text instead of a clear one. It is obvious from audio recordings that the same work of music can be performed in more than one way; likewise, this experiment tries to make it obvious that the score may have more than just one “text” and possibly pique the interest of performers to take control of the variants as opposed to having the weather determining them.  </p>
+<p>I invite you to perform Meteomozart ad let me know what you think! Grab your ipad or even your phone, place it on your music stand and <a href="https://raffazizzi.github.io/meteomozart/" target="_blank" rel="external">visit the site</a>. It’ll work! Just remember to allow it to know your location.</p>
+<p>The music score for Meteomozart is encoded with the <a href="http://music-encoding.org" target="_blank" rel="external">Music Encoding Initiative</a>, which allowed me to encode variants from different sources. The score is rendered with <a href="http://verovio.org/" target="_blank" rel="external">Verovio</a>. The weather API is provided by <a href="https://darksky.net/poweredby/" target="_blank" rel="external">Dark Sky</a>. All the code is <a href="https://github.com/raffazizzi/meteomozart" target="_blank" rel="external">available on my GitHub</a>.</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;This post introduces Meteomozart, a dynamic score of Mozart’s Piano Sonata No.13 in B♭ major, K.333/315c. This score is location-
+    
+    </summary>
+    
+      <category term="Music" scheme="http://itisnotsound.com/categories/Music/"/>
+    
+    
+      <category term="music" scheme="http://itisnotsound.com/tags/music/"/>
+    
+      <category term="digital publishing" scheme="http://itisnotsound.com/tags/digital-publishing/"/>
+    
+      <category term="mozart" scheme="http://itisnotsound.com/tags/mozart/"/>
+    
+  </entry>
   
   <entry>
     <title>The Score as a Controller: The Orchestra for iPad</title>
@@ -151,9 +185,9 @@
       <category term="Music" scheme="http://itisnotsound.com/categories/Music/"/>
     
     
-      <category term="digital editions" scheme="http://itisnotsound.com/tags/digital-editions/"/>
-    
       <category term="music" scheme="http://itisnotsound.com/tags/music/"/>
+    
+      <category term="digital editions" scheme="http://itisnotsound.com/tags/digital-editions/"/>
     
   </entry>
   
