@@ -8,7 +8,7 @@ tags:
 categories:
   - Music
 comments: true
-date: 2016-12-22 16:00:00
+date: 2016-12-23 12:00:00
 ---
 
 **This post introduces [Meteomozart](https://raffazizzi.github.io/meteomozart/), a dynamic score of Mozart’s Piano Sonata No.13 in B♭ major, K.333/315c. This score is location-based, so make sure to allow the browser to know your location when prompted! Click or tap on the sides of the score to move between pages.**
